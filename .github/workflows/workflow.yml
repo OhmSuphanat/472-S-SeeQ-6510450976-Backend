@@ -1,9 +1,9 @@
 name: SeeQ CI
 on:
   push:
-    branches: [main, develop]
+    branches: [ develop ]
   pull_request:
-    branches: [main, develop]
+    branches: [ develop ]
 
 jobs:
   test-build:
